@@ -11,7 +11,7 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
     height: 100%;
-    color: #777;
+    color: #232323;
     line-height: 1.8;
 }
 
@@ -42,14 +42,14 @@ body, html {
 <!-- Container -->
 <div class="w3-content w3-container w3-padding-64">
   <h2>Serie A results</h2>
-  <p class="w3-padding-16">Here I can write the description.<br>
+  <p class="w3-padding-16">This is a collection of interactive (well, just a little bit) heatmaps showing all results of each club that played in Serie A from the 1986-87 season to the 2016-17 season. Put your cursor on a square to see the result of any specific game.<br>
   <b>Step 1 - Data collection</b><br>
   I used <a href="https://www.crummy.com/software/BeautifulSoup/">Beautifulsoup</a> to extract data from the website of the <a href="http://www.legaseriea.it/en/serie-a-tim/archive">Lega Serie A</a> and saved the data into a csv<br>
   <b>Step 2 - Data manipulation</b><br>
   I then organised the data into Pandas DataFrames and created a dictionary with a DataFrame for each club<br>
   <b>Step 3 - Data visualisation</b><br>
   Finally I used <a href="https://bokeh.pydata.org/en/latest/">Bokeh</a> to create the heatmaps and add the tooltip on hovering<br><br></p>
-  <h4>Be patient, it might take about a minute to lead</h4>
+  <h4>Please be patient, it may take about 30 seconds to load</h4>
 </div>
 
     
