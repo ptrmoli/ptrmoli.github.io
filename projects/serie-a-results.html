@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>serie a results project</title>
+<title>Serie A results</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -23,13 +23,9 @@ body, html {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="https://ptrmoli.github.io" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-black">
-      <i class="fa fa-search"></i>
-    </a>
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://ptrmoli.github.io" class="w3-bar-item w3-button w3-hover-black"><i class="fa fa-home"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-black"><i class="fa fa-search"></i></a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -44,11 +40,11 @@ body, html {
   <h2>Serie A results</h2>
   <p class="w3-padding-16">This is a collection of interactive (well, just a little bit) heatmaps showing all results of each club that played in Serie A from the 1986-87 season to the 2016-17 season. Put your cursor on a square to see the result of any specific game.<br>
   <b>Step 1 - Data collection</b><br>
-  I used <a href="https://www.crummy.com/software/BeautifulSoup/">Beautifulsoup</a> to extract data from the website of the <a href="http://www.legaseriea.it/en/serie-a-tim/archive">Lega Serie A</a> and saved the data into a csv<br>
+  I used <a href="https://www.crummy.com/software/BeautifulSoup/">Beautifulsoup</a> to extract data from the website of the <a href="http://www.legaseriea.it/en/serie-a-tim/archive">Lega Serie A</a> and saved the data into a csv.<br>
   <b>Step 2 - Data manipulation</b><br>
-  I then organised the data into Pandas DataFrames and created a dictionary with a DataFrame for each club<br>
+  I then organised the data into Pandas DataFrames and created a dictionary with a DataFrame for each club.<br>
   <b>Step 3 - Data visualisation</b><br>
-  Finally I used <a href="https://bokeh.pydata.org/en/latest/">Bokeh</a> to create the heatmaps and add the tooltip on hovering<br><br></p>
+  Finally I used <a href="https://bokeh.pydata.org/en/latest/">Bokeh</a> to create the heatmaps and add the tooltip on hovering.<br><br></p>
   <h4>Please be patient, it may take about 30 seconds to load</h4>
 </div>
 
